@@ -82,16 +82,17 @@
       gap: 10px;
       padding: 15px;
       width: 25.9vw;
-      background-color: white;
+      background-color: $primary-color;
       left: 31.5%;
       bottom: 24.5%;
       z-index: 2;
     }
   }
+
   // contenido sección ven a conocernos
   .visit-us {
     padding: 16px;
-    background-color: white;
+    background-color: $primary-color;
     height: 42.7vh;
 
     &__title {
