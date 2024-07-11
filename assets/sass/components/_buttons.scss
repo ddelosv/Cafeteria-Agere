@@ -1,0 +1,39 @@
+// Botones de la barra de navegación
+.header__nav__actions {
+    display: flex;
+    margin-right: 30px;
+
+
+    .header__button {
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        padding: 0.5em 1em;
+        margin-left: 16px;
+
+
+        &--login {
+            background-color: transparent;
+            border: 1px solid #989797;
+            color: #989797;
+            padding: 0.5em 1em;
+            margin-left: 16px;
+
+            &:hover {
+                background-color: white;
+                border: 1px solid #454545;
+                color: #454545;
+            }
+        }
+
+        &--register {
+            background-color: #4CA866;
+            color: #EEEDED;
+
+            &:hover {
+                background-color: #9DCFAB;
+                color: #454545;
+            }
+        }
+    }
+}

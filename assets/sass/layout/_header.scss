@@ -1,0 +1,39 @@
+.header {
+    background-color: white;
+    padding: 16px;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__nav__logo {
+    font-size: 1.5em;
+    width: 3%;
+    margin-left: 3%;
+  }
+  
+  .header__nav__menu {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 12%;
+  }
+  
+  .header__nav__menu li {
+    margin-right: 16px;
+  }
+  
+  .header__nav__menu li a {
+    color: gray;
+    text-decoration: none;
+    
+  }
+  
+  .header__nav__menu li a :hover {
+    color: black;
+  }
+  
+ 

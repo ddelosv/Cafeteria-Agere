@@ -1,0 +1,157 @@
+//contenido principal
+.main-content {
+  .intro {
+    display: flex;
+    padding: 0%;
+
+
+    &__image {
+      width: 70%;
+      margin-right: 16px;
+    }
+
+    &__info {
+      width: 50%;
+
+      .item {
+        p {
+          text-align: start;
+          font-family: $font-family;
+          font-size: 1rem;
+        }
+
+
+        h1 {
+          text-align: center;
+          font-family: "PT Mono";
+          font-size: 2rem;
+        }
+      }
+
+      .intro__stats {
+        div {
+          text-align: center;
+        }
+      }
+
+      .box1,
+      .box2 {
+        @include flex-abs;
+        width: 7.6vw;
+        height: 17vh;
+      }
+
+      .box1 {
+        background-color: #E4572E;
+        justify-content: center;
+        align-items: center;
+        left: 56%;
+        bottom: 27%;
+        z-index: 3;
+      }
+
+      .box2 {
+        background-color: #F1DD7B;
+        left: 57.4%;
+        bottom: 24.5%;
+        z-index: 2;
+      }
+    }
+
+    &__title {
+      font-size: 4.5rem;
+      margin-bottom: 16px;
+      @include posicion-r;
+      width: 30%;
+      justify-content: center;
+      margin-left: 10%;
+      margin-top: 10%;
+      font-family: "PT Mono";
+      line-height: 1
+    }
+
+    &__subtitle {
+      font-size: 1.125rem;
+      margin-bottom: 16px;
+      margin-left: 10%;
+    }
+
+    &__stats {
+      @include flex-abs;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 15px;
+      width: 25.9vw;
+      background-color: white;
+      left: 31.5%;
+      bottom: 24.5%;
+      z-index: 2;
+    }
+  }
+  // contenido sección ven a conocernos
+  .visit-us {
+    padding: 16px;
+    background-color: white;
+    height: 42.7vh;
+
+    &__title {
+      font-size: 1.5em;
+      font-family: "PT Mono";
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    &__description {
+      margin-bottom: 16px;
+      font-weight: 400;
+      text-align: left;
+    }
+
+    &__map {
+      @include flex-abs;
+      left: 22.5%;
+      top: 79%;
+      width: 30%;
+      Z-index: 2;
+    }
+
+    &__cafe {
+      @include flex-abs;
+      left: 56.7%;
+      top: 75.5%;
+      width: 43.35vw;
+      height: 43.4vh;
+      z-index: 1;
+    }
+
+    &__granos {
+      @include flex-abs;
+      object-fit: cover;
+      left: 52%;
+      top: 75%;
+      width: 10vw;
+      transform: rotate(-90deg);
+      z-index: 1;
+
+    }
+
+    &__box-blue {
+      @include flex-abs;
+      background-color: #3C91E6;
+      width: 30vw;
+      height: 30vh;
+      left: 26.7%;
+      top: 75.5%;
+      z-index: 0;
+    }
+
+    .box-text {
+      @include flex-abs;
+      width: 17%;
+      flex-direction: column;
+      top: 82%;
+      left: 3.5%;
+
+    }
+  }
+}

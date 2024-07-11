@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", "sans-serif";
+  color: #333333;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: white;
+  padding: 16px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav__logo {
+  font-size: 1.5em;
+  width: 3%;
+  margin-left: 3%;
+}
+
+.header__nav__menu {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  left: 12%;
+}
+
+.header__nav__menu li {
+  margin-right: 16px;
+}
+
+.header__nav__menu li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.header__nav__menu li a :hover {
+  color: black;
+}
+
+.main-content .intro {
+  display: flex;
+  padding: 0%;
+}
+.main-content .intro__image {
+  width: 70%;
+  margin-right: 16px;
+}
+.main-content .intro__info {
+  width: 50%;
+}
+.main-content .intro__info .item p {
+  text-align: start;
+  font-family: "roboto", "sans-serif";
+  font-size: 1rem;
+}
+.main-content .intro__info .item h1 {
+  text-align: center;
+  font-family: "PT Mono";
+  font-size: 2rem;
+}
+.main-content .intro__info .intro__stats div {
+  text-align: center;
+}
+.main-content .intro__info .box1,
+.main-content .intro__info .box2 {
+  display: flex;
+  position: absolute;
+  width: 7.6vw;
+  height: 17vh;
+}
+.main-content .intro__info .box1 {
+  background-color: #E4572E;
+  justify-content: center;
+  align-items: center;
+  left: 56%;
+  bottom: 27%;
+  z-index: 3;
+}
+.main-content .intro__info .box2 {
+  background-color: #F1DD7B;
+  left: 57.4%;
+  bottom: 24.5%;
+  z-index: 2;
+}
+.main-content .intro__title {
+  font-size: 4.5rem;
+  margin-bottom: 16px;
+  display: flex;
+  position: relative;
+  width: 30%;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: "PT Mono";
+  line-height: 1;
+}
+.main-content .intro__subtitle {
+  font-size: 1.125rem;
+  margin-bottom: 16px;
+  margin-left: 10%;
+}
+.main-content .intro__stats {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px;
+  width: 25.9vw;
+  background-color: white;
+  left: 31.5%;
+  bottom: 24.5%;
+  z-index: 2;
+}
+.main-content .visit-us {
+  padding: 16px;
+  background-color: white;
+  height: 42.7vh;
+}
+.main-content .visit-us__title {
+  font-size: 1.5em;
+  font-family: "PT Mono";
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.main-content .visit-us__description {
+  margin-bottom: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.main-content .visit-us__map {
+  display: flex;
+  position: absolute;
+  left: 22.5%;
+  top: 79%;
+  width: 30%;
+  Z-index: 2;
+}
+.main-content .visit-us__cafe {
+  display: flex;
+  position: absolute;
+  left: 56.7%;
+  top: 75.5%;
+  width: 43.35vw;
+  height: 43.4vh;
+  z-index: 1;
+}
+.main-content .visit-us__granos {
+  display: flex;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 52%;
+  top: 75%;
+  width: 10vw;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+.main-content .visit-us__box-blue {
+  display: flex;
+  position: absolute;
+  background-color: #3C91E6;
+  width: 30vw;
+  height: 30vh;
+  left: 26.7%;
+  top: 75.5%;
+  z-index: 0;
+}
+.main-content .visit-us .box-text {
+  display: flex;
+  position: absolute;
+  width: 17%;
+  flex-direction: column;
+  top: 82%;
+  left: 3.5%;
+}
+
+.footer {
+  background-color: #454545;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+
+.header__nav__actions {
+  display: flex;
+  margin-right: 30px;
+}
+.header__nav__actions .header__button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.5em 1em;
+  margin-left: 16px;
+}
+.header__nav__actions .header__button--login {
+  background-color: transparent;
+  border: 1px solid #989797;
+  color: #989797;
+  padding: 0.5em 1em;
+  margin-left: 16px;
+}
+.header__nav__actions .header__button--login:hover {
+  background-color: white;
+  border: 1px solid #454545;
+  color: #454545;
+}
+.header__nav__actions .header__button--register {
+  background-color: #4CA866;
+  color: #EEEDED;
+}
+.header__nav__actions .header__button--register:hover {
+  background-color: #9DCFAB;
+  color: #454545;
+}/*# sourceMappingURL=main.css.map */
