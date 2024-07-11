@@ -49,8 +49,22 @@ Este proyecto consiste en la creación de una maqueta para la home de un ecommer
 ## Estructura del Proyecto
 
 ```plaintext
-sssd
-sfsf
+
+├─────assets
+│    ├───css
+│    ├───img
+│    └───sass
+│        ├───abstracts
+│        ├───base
+│        ├───components
+│        ├───layout
+│        ├───pages
+│        ├───theme
+│        └───vendors
+│
+├── index.html
+└── Readme.md
+      
 ```
 
 ## Scrreenshots sitio web
